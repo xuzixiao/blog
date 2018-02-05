@@ -1,19 +1,26 @@
 <template>
   <div class="concent">
       <div class="concent-left">
-           这是我的内容左侧内容左侧内容左侧内容左侧内容左侧内容左侧内容左侧内容左侧
+           {{concentLeft}}
       </div>
       <div class="concent-con">
-          这是我的内容这是我的内容这是我的内容这是我的内容这是我的内容这是我的内容这是我的内容这是我的内容
+          {{concent}}
       </div>
       <div class="concent-right">
-          内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧
+          {{concentright}}
       </div>
   </div>
 </template>
 <script>
 export default {
+    data(){
+        return{
+         concentLeft:"这是我的内容噢，左侧内容",
+         concentright:"这是我的内容噢，右侧内容",
+         concent:"这是我的内容噢，左侧内容",
 
+        }
+    }
 }
 </script>
 <style scoped>
