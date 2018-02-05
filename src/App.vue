@@ -21,11 +21,12 @@ export default({
 .box{
     width: 100%;
     height: 400px;
+    min-height: 400px;
     background: #dd7373;
 }
 .header{
     width: 100%;
     height: 100px;
-    background: #978989
+    background: #978989;
 }
 </style>
