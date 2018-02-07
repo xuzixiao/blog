@@ -3,7 +3,7 @@
     <my-header></my-header>
     <my-concent></my-concent>
     <my-footer></my-footer>
-    <span v-click="aa">这是我的span</span>
+    <span v-on:click="aa">这是我的span</span>
 </div>
 </template>
 <script>
@@ -17,7 +17,9 @@ export default({
        "my-footer":footer
    },
    methods:{
-      
+      aa:function(){
+
+      }
    }
 })
 </script>
