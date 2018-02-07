@@ -16,9 +16,15 @@ export default({
        "my-concent":concent,
        "my-footer":footer
    },
+   data(){
+     return {
+         aaa:1
+     }  
+   },
    methods:{
       aa:function(){
-
+       this.aaa++;
+        console.log(this.aaa);
       }
    }
 })
