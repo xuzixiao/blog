@@ -3,6 +3,7 @@
     <my-header></my-header>
     <my-concent></my-concent>
     <my-footer></my-footer>
+    <span v-click="aa">这是我的span</span>
 </div>
 </template>
 <script>
@@ -14,6 +15,9 @@ export default({
        "my-header":header,
        "my-concent":concent,
        "my-footer":footer
+   },
+   methods:{
+      
    }
 })
 </script>
@@ -22,11 +26,11 @@ export default({
     width: 100%;
     height: 400px;
     min-height: 400px;
-    background: #dd7373;
+    background: #dd737300;
 }
 .header{
     width: 100%;
     height: 100px;
-    background: #978989;
+    background: #ffffff6c;
 }
 </style>
