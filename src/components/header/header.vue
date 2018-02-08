@@ -5,6 +5,7 @@
             {{item.text}}
         </li>
       </ul>
+      {{number}}
   </div>
 </template>
 <script>
@@ -19,6 +20,7 @@ export default {
               {id:3,text:"新闻中心"},
               {id:4,text:"留言板"}
           ]
+
       }
   }
 }
