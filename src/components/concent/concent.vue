@@ -18,7 +18,6 @@ export default {
          concentLeft:"这是我的内容噢，左侧内容",
          concentright:"这是我的内容噢，右侧内容",
          concent:"这是我的内容噢，左侧内容",
-
         }
     }
 }
@@ -27,7 +26,7 @@ export default {
 .concent{
     width: 100%;
     height: 500px;
-    background:#fff00f;
+    background:#ffef0f41;
 }
 .concent-left{
     width: 30%;
@@ -47,8 +46,6 @@ export default {
     float: left;
     background:red;
 }
-
-
 </style>
 
 
