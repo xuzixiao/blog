@@ -1,10 +1,11 @@
 <template>
   <div class="header">
-      <ul>
-        <li v-for="item in menu">
-            {{item.text}}
-        </li>
-      </ul>
+      <div class="header-box">
+      <div class="logo">
+        <h1><img src="/static/images/logo.jpg" alt="原野博客" name="原野博客"/></h1>
+      </div>
+      
+      </div>
   </div>
 </template>
 <script>
@@ -22,9 +23,22 @@ export default {
 }
 </script>
 <style scoped>
-.header ul li{
-    display: block;
-    width: 100px;
-    float: left;
+.header{
+    width: 100%;
+    height: 120px;
+}
+.header-box{
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+}
+.logo{
+    width: auto;
+    height: 100px;
+    
+}
+.logo img {
+    height: 100px;
+    margin: 10px 0px;
 }
 </style>
