@@ -3,10 +3,20 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
+//jsonserver
+const jsonServer = require('json-server')
+const ApiServer = jsonServer.create()
+const ApiRouter = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
+ApiServer.use(middlewares)
+ApiServer.use(ApiRouter)
+ApiServer.listen(3000, function(){
+  console.log('JSON Server is running')
+})
+
 
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
@@ -23,7 +33,7 @@ module.exports = {
     // Use Eslint Loader?
     // If true, your code will be linted during bundling and
     // linting errors and warnings will be shown in the console.
-    useEslint: true,
+    //useEslint: false,
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
     showEslintErrorsInOverlay: false,

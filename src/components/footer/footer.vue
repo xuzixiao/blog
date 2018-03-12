@@ -18,7 +18,6 @@ export default {
     width: 100%;
     height: 200px;
     float: left;
-    background:#ff3456;
 }
 </style>
 

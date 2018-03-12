@@ -5,5 +5,5 @@ Vue.use(Router);
 export default new Router({
   //  去掉#
   mode: 'history'
-  routes: []
+ // routes: []
 });

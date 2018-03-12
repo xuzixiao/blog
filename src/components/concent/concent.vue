@@ -26,25 +26,23 @@ export default {
 .concent{
     width: 100%;
     height: 500px;
-    background:#ffef0f41;
+    
 }
 .concent-left{
     width: 30%;
     height: 500px;
     float: left;
-    background: #ff2345;
+    
 }
 .concent-con{
     width: 50%;
     height: 500px;
     float: left;
-    background:#faf;
 }
 .concent-right{
     width: 20%;
     height: 500px;
     float: left;
-    background:red;
 }
 </style>
 
