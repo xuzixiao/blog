@@ -41,7 +41,7 @@ export default({
    },
    methods:{
       aa:function(){
-       this.aaa++;
+       this.aaa+5;
       },
       he:function(){
          this.comtorander="my-header"

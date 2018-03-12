@@ -10,7 +10,6 @@
 </template>
 <script>
 export default {
-  
   props:['number'],
   data(){
       return{
@@ -25,6 +24,7 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 .header ul li{
     display: block;
