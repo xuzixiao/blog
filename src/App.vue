@@ -53,6 +53,10 @@ export default({
 })
 </script>
 <style scoped>
+<<<<<<< HEAD
+
+
+=======
 .box{
     width: 100%;
     height: 400px;
@@ -64,4 +68,5 @@ export default({
     height: 100px;
     background: #ffff00;
 }
+>>>>>>> e3f642ae286386414e9a3e4137182236f3d89634
 </style>
