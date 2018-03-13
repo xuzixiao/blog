@@ -6,8 +6,8 @@
         </div>
         <div class="nav">
             <ul>
-                <li><a href="">首页</a></li>
-                <li><a href="">文章</a></li>
+                <li><router-link to="index">首页</router-link></li>
+                <li><router-link to="list">文章</router-link></li>
                 <li><a href="">说说语录</a></li>
                 <li><a href="">留言板</a></li>
             </ul>
