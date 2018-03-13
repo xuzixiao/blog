@@ -6,9 +6,9 @@
 </div>
 </template>
 <script>
-import Vue from "vue";
-import header from "./components/header/header.vue";
-import footer from "./components/footer/footer.vue";
+import Vue from "vue"
+import header from "./components/header/header.vue"
+import footer from "./components/footer/footer.vue"
 export default({
    components:{
        "my-header":header,
